@@ -1,0 +1,28 @@
+SET a 1
+EXPIRE a 5
+SET a 1
+EXPIRE a 5
+SET a 1
+EXPIRE a 5
+SET a 1
+INCR a
+EXPIRE a 5
+SET b 10
+INCR b
+SET b 10
+INCR b
+SET a 1
+SET a 1
+SET b 2
+SET c 3
+SET d 4
+SET e 5
+SET f 6
+FLUSHALL
+SET a 1
+SET b 2
+SET c 3
+SET d 4
+SET e 5
+SET f 6
+DEL a
